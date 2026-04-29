@@ -1,5 +1,10 @@
 app.db*
+
 honker_ext.dll
+libhonker_ext.so
+libhonker_ext.dylib
+
+honker-go-starter*
 
 .vscode/
 

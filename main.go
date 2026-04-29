@@ -4,12 +4,21 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
+	"runtime"
 
 	"github.com/russellromney/honker-go"
 )
 
 func main() {
-	db, err := honker.Open("app.db", "./honker_ext.dll")
+	extPath := "./honker_ext.dll"
+	switch runtime.GOOS {
+	case "linux":
+		extPath = "./libhonker_ext.so"
+	case "darwin":
+		extPath = "./libhonker_ext.dylib"
+	}
+
+	db, err := honker.Open("app.db", extPath)
 	if err != nil {
 		log.Fatal(err)
 	}
