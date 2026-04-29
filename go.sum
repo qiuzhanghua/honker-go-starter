@@ -1,0 +1,4 @@
+github.com/mattn/go-sqlite3 v1.14.24 h1:tpSp2G2KyMnnQu99ngJ47EIkWVmliIizyZBfPrBWDRM=
+github.com/mattn/go-sqlite3 v1.14.24/go.mod h1:Uh1q+B4BYcTPb+yiD3kU8Ct7aC0hY9fxUwlHK0RXw+Y=
+github.com/russellromney/honker-go v0.0.0-20260424095627-932b296eeff6 h1:6HdnXWx0u4bGqiBZQvlTdVwp1/2KD09guXDXkqC1tpk=
+github.com/russellromney/honker-go v0.0.0-20260424095627-932b296eeff6/go.mod h1:BI7HvkufS//vjsGElwKOg32RXy26zWky9wbtPTaz/Yc=
